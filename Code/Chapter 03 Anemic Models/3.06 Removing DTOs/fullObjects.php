@@ -44,6 +44,6 @@ final class NullFeed extends UserFeedBehavior {
 // If you need to transfer to an external system you create a valid object
 $janesProfileToTransfer = new SocialNetworkProfile(
     'jane', 
-    new FriendCollectionProxy(), 
+    new FriendsCollectionProxy(), 
     new NullFeed()
 );

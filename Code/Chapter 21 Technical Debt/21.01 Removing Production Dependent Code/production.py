@@ -1,13 +1,14 @@
 def send_welcome_email(email_address, environment):
-  if ENVIRONMENT_NAME == "production":
-    print("Sending welcome email to {email_address} "
-          "from Bob Builder <bob@builder.com>")
-  else:
-    print("Emails are sent only on production")
+    if environment == "production":
+        print(f"{email_address}에 환영 이메일을 보냅니다.",
+              "Bob Builder <bob@builder.com> 전달")
+    else:
+        print("이메일은 오직 프로덕션에서만 보내집니다.")
+
     
 send_welcome_email("john@doe.com", "development")
-# Emails are sent only on production
+# 아무 일도 일어나지 않습니다. 이메일은 프로덕션 환경에서만 전송됩니다.
 
 send_welcome_email("john@doe.com", "production")
-# Sending welcome email to john@doe.com
-# from Bob Builder <bob@builder.com>
+# john@doe.com에 환영 이메일을 보냅니다.
+# Bob Builder <bob@builder.com> 전달
