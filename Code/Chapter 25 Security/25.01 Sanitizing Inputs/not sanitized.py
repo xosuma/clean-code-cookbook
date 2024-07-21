@@ -1,3 +1,2 @@
 user_input = "abc123!@#"
-# This content might not be very safe 
-# if you expect just alphanumeric characters
+# 이 값에서 영문자와 숫자가 아닌 문자를 입력하는 경우 안전하지 않을 수 있습니다.

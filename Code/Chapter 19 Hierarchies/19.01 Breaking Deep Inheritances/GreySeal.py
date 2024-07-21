@@ -1,5 +1,12 @@
 class GreySeal:
-    def eat(self): # find the common behavior in the hierarchy
-    def sleep(self): # find the common behavior in the hierarchy
-    def swim(self): # find the common behavior in the hierarchy
-    def breed(self): # find the common behavior in the hierarchy
+    def eat(self):  # 계층 구조에서 공통된 동작 찾기
+        pass
+
+    def sleep(self):  # 계층 구조에서 공통된 동작 찾기
+        pass
+
+    def swim(self):  # 계층 구조에서 공통된 동작 찾기
+        pass
+
+    def breed(self):  # 계층 구조에서 공통된 동작 찾기
+        pass

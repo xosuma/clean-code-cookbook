@@ -3,20 +3,18 @@ class BookCartTestCase(unittest.TestCase):
         self.cart = Cart()
 
     def test_add_book(self):
-       self.cart.add_item('xxxxx', 3, 10)
-        # This is not a real example
-       self.cart.emailAddress('sarsasa')
-        # This is not a real email
+        self.cart.add_item('xxxxx', 3, 10)
+        # 실제 예시 아님
 
-       self.assertEqual(
-           self.cart.total,
-           30,
-           msg='Book Cart total not correct after adding books')
-       self.assertEqual(
-           self.cart.items['xxxxx'],
-           3,
-           msg='Quantity of items not correct after adding book')
- 
+        self.assertEqual(
+            self.cart.total,
+            30,
+            msg='도서 추가 후 카트 합계가 정확하지 않음')
+        self.assertEqual(
+            self.cart.items['xxxxx'],
+            3,
+            msg='도서 추가 후 품목 수량이 정확하지 않음')
+
     def test_remove_item(self):
         self.cart.add_item('fgdfhhfhhh', 3, 10)
         self.cart.remove_item('fgdfhhfhrhh', 2, 10)    
