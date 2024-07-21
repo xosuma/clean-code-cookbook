@@ -5,10 +5,10 @@ janePhoneCall.set_origin('555-5555')
 janePhoneCall.set_destination('555-5555')
 janePhoneCall.set_duration(60) 
 
-# You can't change the destination during the call.
-# This is not enforced due to setters
+# 통화 중에는 수신자를 변경할 수 없습니다.
+# 세터로 인해 적용되지 않습니다.
 
-# Origin and Destination cannot be the same
+# 수신자와 발신자는 동일할 수 없습니다.
 
 
 def set_destination(self, destinationNumber):
