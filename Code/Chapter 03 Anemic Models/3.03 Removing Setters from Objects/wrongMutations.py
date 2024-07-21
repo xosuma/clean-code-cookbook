@@ -10,13 +10,15 @@ janePhoneCall.set_duration(60)
 
 # Origin and Destination cannot be the same
 
- def set_destination(self, destinationNumber):
-    if destinationNumber == self._origin:
-      raise ValueError("Destination cannot be the same as origin")
-    self._destination = destinationNumber
+
+def set_destination(self, destinationNumber):
+	if destinationNumber == self._origin:
+		raise ValueError("Destination cannot be the same as origin")
+	self._destination = destinationNumber
     
- def set_origin(self, originNumber):
-    if originNumber == self._destination:
-      raise ValueError("Destination cannot be the same as origin")
-    # repeated code   
-    self._origin = originNumber
+
+def set_origin(self, originNumber):
+	if originNumber == self._destination:
+		raise ValueError("Destination cannot be the same as origin")
+		# repeated code
+	self._origin = originNumber
