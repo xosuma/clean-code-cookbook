@@ -1,7 +1,7 @@
-tenCentimeters = 10
-tenInches = 10
+ten_centimeters = 10
+ten_inches = 10
 
-tenCentimeters + tenInches
+ten_centimeters + ten_inches
 # 20
-# this error is based on the hidden assumption of a unit (any)
-# and caused the Mars Climate Orbiter failure 
+# 이 오류는 단위의 숨겨진 가정을 기반으로 하며
+# 화성 기후 궤도선 실패의 원인이 되었기도 합니다.

@@ -11,13 +11,14 @@ class Measure:
     def __str__(self):
         return f"{self.scalar} {self.unit.symbol}"
 
-centimetersUnit = Unit("centimeters", "cm")
-inchesUnit = Unit("inches", "in")
 
-tenCentimeters = Measure(10, centimetersUnit)
-tenInches = Measure(10, inchesUnit)
+centimeters_unit = Unit("centimeters", "cm")
+inches_unit = Unit("inches", "in")
 
-tenCentimeters + tenInches
-# error until you introduce a conversion factor
-# in this case the conversion is constant 
-# inches = centimeters / 2.54
+ten_centimeters = Measure(10, centimeters_unit)
+ten_inches = Measure(10, inches_unit)
+
+ten_centimeters + ten_inches
+# 변환 계수가 도입될 때까지 오류가 발생합니다.
+# 이 경우 변환은 일정합니다.
+# 인치 = 센티미터 / 2.54
