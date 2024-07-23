@@ -3,8 +3,8 @@
 final class SocialNetworkProfile {
 
     private $userName;
-    private $friends; // friends is a reference to a large collection
-    private $feed; // feed references the whole user feed
+    private $friends; // friends는 대규모 컬렉션에 대한 참조
+    private $feed; // feed는 전체 사용자 피드를 참조
 
     public function __construct(
         $userName,
@@ -19,9 +19,8 @@ final class SocialNetworkProfile {
         $this->assertNoFriendOfMyself($friends);
 
     }
-    // lots of protocol associated with the profile
-    // No serialization protocol
-    // No behavior or attribute duplication
+    // 프로필과 연관된 수많은 프로토콜
+    // 직렬화 프로토콜이나 동작 혹은 속성 중복 복제가 없습니다
 }
 
 interface FriendsCollectionProtocol { }
@@ -29,8 +28,7 @@ interface FriendsCollectionProtocol { }
 final class FriendsCollection implements FriendsCollectionProtocol { }
 
 final class FriendsCollectionProxy implements FriendsCollectionProtocol {
-    // proxy protocol
-    // travels as a lightweight object and can get contents when requested
+    // 프록시 프로토콜은 경량 객체로 이동해 요청 시 콘텐츠를 가져올 수 있습니다.
 }
 
 abstract class UserFeedBehavior { }
@@ -38,10 +36,10 @@ abstract class UserFeedBehavior { }
 final class UserFeed extends UserFeedBehavior { }
 
 final class NullFeed extends UserFeedBehavior {
-    // throws an error when requested for behavior
+    // 동작을 요청할 때 오류를 발생시킵니다.
 }
 
-// If you need to transfer to an external system you create a valid object
+// 외부 시스템으로 전송해야 하는 경우 유효한 객체 생성
 $janesProfileToTransfer = new SocialNetworkProfile(
     'jane', 
     new FriendsCollectionProxy(), 
