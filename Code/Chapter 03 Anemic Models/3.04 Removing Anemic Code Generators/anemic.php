@@ -11,10 +11,10 @@ AnemicClassCreator::create(
             'currentlyWorking', '$validators->getBooleanValidator()')
     ]);
 
-// You have magic setters and getters
+// 매직 세터와 게터가 있습니다.
 // getId() , setId(), getName()
-// Validation is not explicit
-// Class are loaded via an autoloader
+// 유효성 검사가 명시적이지 않습니다.
+// 클래스는 클래스 오토로더(class autolader)를 사용해 로드됩니다.
 
 $john = new Employee;
 $john->setId(1);
@@ -22,4 +22,4 @@ $john->setName('John');
 $john->setCurrentlyWorking(true);
 
 $john->getName(); 
-// returns 'John'
+// 'John' 반환
