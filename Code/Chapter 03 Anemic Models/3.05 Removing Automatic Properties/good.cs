@@ -5,9 +5,9 @@ class Person
   public Person(string personName)
   {
     name = personName;
-    // immutable
-    // no getters, no setters
+    // 불변
+    // 게터와 세터가 없습니다.
   }
 
-  // ... more protocol, probably accessing private variable name
+  // ... 다른 프로토콜(private 변수명 접근 등)
 }
