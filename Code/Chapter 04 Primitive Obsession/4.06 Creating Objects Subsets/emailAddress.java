@@ -2,10 +2,9 @@ public class EmailAddress {
     public String emailAddress;
 
     public EmailAddress(String address) {
-        string expressions
-            = @"^\w+([-+.']\w+)*@\w+([-.]\w+)*\.\w+([-.]\w+)*$";
+        String expressions = "^\w+([-+.']\w+)*@\w+([-.]\w+)*\.\w+([-.]\w+)*$";
         if (!Regex.IsMatch(email, expressions) {
-          throw new Exception('Invalid email address');
+          throw new Exception('이메일 주소가 유효하지 않습니다.');
         }
         this.emailAddress = address;
     }

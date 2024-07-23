@@ -7,7 +7,6 @@ fun elapsedDays(fromDate: LocalDate, toDate: LocalDate): Long {
     return ChronoUnit.DAYS.between(fromDate, toDate)
 }
 
-// You need to apply this short function 
-// or the inline version many times in your code
-// You don't check fromDate to be less than toDate
-// You can make accounting numbers with a negative number
+// 이 짧은 함수 또는 인라인 버전을 코드에 여러 번 적용해야 합니다.
+// 시작 날짜(fromDate)가 종료 날짜(toDate)보다 작다는 검증을 하지 않습니다.
+// 계산된 숫자가 음숫값일 수 있습니다.

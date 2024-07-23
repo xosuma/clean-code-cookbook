@@ -6,5 +6,5 @@ final class GeographicCoordinate {
     function pointInPolygon(Polygon $polygon) { }
 }
 
-// Now you are in geometry world (and not in the world of arrays anymore). 
-// You can safely do many exciting things.
+// 여러분은 더 이상 배열의 세계가 아닌 기하학의 세계에 있습니다.
+// 여러 가지 흥미로운 일을 안전하게 할 수 있습니다.

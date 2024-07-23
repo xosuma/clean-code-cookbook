@@ -1,11 +1,9 @@
 Port server = Port.parse(this, "www.example.org:8080");
-// Port is a smallobject with responsibilities and protocol
+// 포트(Port)는 책임과 프로토콜이 있는 작은 객체입니다.
 
-Port in = server.open(this); // returns a port, not a number
-URI uri = server.asUri(this); // returns an URI
+Port in = server.open(this); // 숫자가 아닌 포트를 반환합니다.
+URI uri = server.asUri(this); // 하나의 URI를 반환합니다.
 InetSocketAddress address = server.asInetSocketAddress();
-// returns an Address
-Path path = server.path(this, "/index.html"); // returns a Path
-// all of them are validated small bijection objects
-// with very few and precise
-// responsibilities
+// 하나의 Address를 반환합니다.
+Path path = server.path(this, "/index.html"); // Path를 반환합니다.
+// 모두 매우 적고 정확한 책임이 있는, 검증된 작은 전단사 객체입니다.

@@ -1,6 +1,6 @@
 class PersonInQueue
 
   def moveForwardOnePosition
-    # implement protocol
+    # 프로토콜 구현
   end
 end
