@@ -1,35 +1,37 @@
 public class MY_Account {
- // This class name has a different case and underscores
+ // 클래스 이름에 대소문자와 밑줄 문자를 다르게 사용합니다.
 
  private Statement privStatement; 
- // Attributes have visibility prefixes
+ // 속성에는 접근성에 대한 접두사가 있습니다.
 	
 	   private Amount currentbalance = amountOf(0);
 
  public SetAccount(Statement statement) {
    this.statement = statement;
  }
- // Setters and getters are not normalized
+ // 세터와 게터는 정규화되어 있지 않습니다.
 	
 public GiveAccount(Statement statement) 
 { this.statement = statement; }
-// Indentation is not uniform
+// 들여쓰기가 균일하지 않습니다.
 
 public void deposit(Amount value, Date date) {
   recordTransaction(
 	  value, date);
-  // some variables are named after type and not role.
+  // 일부 변수는 역할이 아닌 유형 이름을 따서 표현됩니다.
  } 
 
 public void extraction(Amount value, Date date) {
   recordTransaction(value.negative(), date);
-  // the opposite of *deposit* should be withdrawal
+  // deposit(입금)의 반대는 withdrawal(출금)이어야 합니다.
+  // (extraction은 추출을 의미함)
 	}
+// 괄호 사용이 일관되지 않습니다.
 
 public void voidPrintStatement(PrintStream printer) 
 {
   statement.printToPrinter(printer);
-  // Name is redundant
+  // 이름은 불필요합니다.
 }
 
 private void privRecordTransactionAfterEnteredthabalance
@@ -40,7 +42,7 @@ private void privRecordTransactionAfterEnteredthabalance
   balance = balanceAfterTransaction;
   statement.addANewLineContainingTransation(transaction, 
 					    balanceAfterTransaction);
-  // naming is not uniform
-  	// wrapped lines are not consistent	
+  // 명명 규칙이 균일하지 않습니다.
+    // 줄 바꿈이 일관되지 않습니다.
  }	
 }

@@ -6,4 +6,4 @@ int multiply(int firstMultiplier, int secondMultiplier) {
   return product; 
 } 
 
-// or just multiply them :)
+// 또는 그냥 곱하세요. :)

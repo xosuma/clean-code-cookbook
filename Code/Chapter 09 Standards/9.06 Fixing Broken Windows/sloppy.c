@@ -6,4 +6,4 @@
          return prod; 
     } 
 
-// Formatting, naming, assignment and standards inconsistent
+// 서식, 네이밍, 할당, 표준에 일관성이 없습니다.
