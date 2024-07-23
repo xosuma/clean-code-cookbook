@@ -1,8 +1,8 @@
 public abstract class OrderState { }
 
 public final class OrderStatePending extends OrderState { }
-// This is a polymorphic hierarchy with different behavior
-// An enum is not enough to model state
+// 다양한 동작을 가진 다형성 계층 구조입니다.
+// 열거형(enum)만으로는 상태를 모델링하기에 충분하지 않습니다.
 
 public final class Order {    
     public Order(LinkedList<int> items) {

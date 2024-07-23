@@ -9,7 +9,7 @@ import java.util.NoSuchElementException
 import java.util.Queue;
 import org.fermi.common.util.ClassUtil;
 import org.fermi.Data;
-// You rely on too many libraries
+// 너무 많은 라이브러리에 의존하고 있습니다.
 
 public class Demo {
    public static void main(String[] args) {

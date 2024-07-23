@@ -2,11 +2,11 @@
 
 final class Calculator {
     function computeSomething() {
-        // Do Real work here since I am the compute method
+        // compute 메서드이기에 이곳에서 실제 동작이 이루어집니다.
     }
 }
 
-// Clean and cohesive class, single responsibility
+// 단일 책임과 함께 깔끔하고 응집력이 있는 클래스입니다.
 
 final class CalculatorDecoratorCache {
 

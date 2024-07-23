@@ -1,10 +1,10 @@
 <?
 
 new Date(31, 02, 2020);
-// Throw an exception
+// 예외를 던짐
 
 1 + 'Hello';
-// Type Mismatch
+// 타입 불일치
 
 !3;
-// Negating is a boolean operation
+// 부정문은 boolean 연산입니다

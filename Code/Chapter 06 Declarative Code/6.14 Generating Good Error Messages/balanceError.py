@@ -4,4 +4,4 @@ def get_balance(address):
     if response.status_code == 200:
         return response.text
     else:
-        raise BlockchainNotReachableError("Error reaching blockchain")
+        raise BlockchainNotReachableError("블록체인 도달 중 실패")

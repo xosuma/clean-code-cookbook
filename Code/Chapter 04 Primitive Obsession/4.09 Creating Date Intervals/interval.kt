@@ -1,13 +1,13 @@
-// You reify the Interval Concept
+// Interval에 대한 개념을 구체화하셔야 합니다.
 
 data class Interval(val fromDate: LocalDate, val toDate: LocalDate) {
     init {
         if (fromDate >= toDate) {
             throw IllegalArgumentException(
-                "From date must be before to date")
+                "시작 날짜는 종료 날짜보다 이전이어야 합니다")
         }
-        // Of course the Interval must be immutable
-        // By using the keyword 'data'
+        // 물론 구간(Interval)은 불변이어야 합니다.
+        // 'data' 키워드를 사용하세요
     }
 
     fun elapsedDays(): Long {
@@ -18,4 +18,4 @@ data class Interval(val fromDate: LocalDate, val toDate: LocalDate) {
 val from = LocalDate.of(2018, 12, 9)
 val to = LocalDate.of(2002, 12, 22)
 
-val interval = Interval(from, to) // Invalid
+val interval = Interval(from, to) // 유효하지 않습니다.

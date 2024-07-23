@@ -1,5 +1,5 @@
 let counter = 0;
 
 function incrementCounter(counter: number, value: number): number {  
-  return counter + value; // Not too efficient  
+  return counter + value; // 지나친 효율성은 피함
 }

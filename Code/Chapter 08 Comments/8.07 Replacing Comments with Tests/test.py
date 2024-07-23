@@ -1,3 +1,6 @@
+import unittest
+
+
 def multiply(first_multiplier, second_multiplier):
     return first_multiplier * second_multiplier
     
@@ -18,11 +21,11 @@ class TestMultiply(unittest.TestCase):
         result = multiply(0, 0)
         self.assertEqual(result, 0)           
 
-# You define a test function called test_multiply,
-# which calls the multiply function with different arguments 
-# and verifies that the result is correct using the assertEqual method.
+# test_multiply라는 테스트 함수를 정의합니다.
+# 이는 다른 인수를 사용해 곱하기 함수 호출하고
+# assertEqual 메서드를 사용해 결과가 올바른지 확인합니다.
 
-# 1. Take the comment of the method explaining what the function does.
-# 2. Rename the method with the comment description (the what).
-# 3. Create tests to verify the comments. 
-# 4. Omit irrelevant implementation details
+# 1. 함수가 수행하는 작업을 설명하는 메서드의 주석을 가져옵니다.
+# 2. 주석이 무엇을 설명하는지 알 수 있도록 메서드의 이름을 변경합니다.
+# 3. 주석을 검증할 수 있는 테스트를 만듭니다.
+# 4. 관련 없는 구현 세부 정보를 생략합니다

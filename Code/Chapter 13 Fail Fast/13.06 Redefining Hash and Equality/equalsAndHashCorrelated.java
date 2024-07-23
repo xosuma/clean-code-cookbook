@@ -1,8 +1,8 @@
 public class Person {
  
 public String name;
-// Public attributes are another smell  
- 
+// public 속성을 갖는 것도 또 다른 문제입니다.
+
  @Override
  public boolean equals(Person anotherPerson) {
    return name.equals(anotherPerson.name); 
@@ -12,6 +12,6 @@ public String name;
  public int hashCode() {
    return name.hashCode(); 
  }
- // This is just an example of non-correlation  
  
+ // 이는 상관관계가 없는 예시일 뿐입니다.
 }

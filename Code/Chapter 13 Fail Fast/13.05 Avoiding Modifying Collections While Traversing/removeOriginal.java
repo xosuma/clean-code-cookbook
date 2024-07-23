@@ -1,4 +1,4 @@
-// here you add elements to the collection...
+// 여기에서 컬렉션에 요소를 추가합니다.
 Collection<Integer> people = new ArrayList<>();
   
 for (Object person : people) {
@@ -6,5 +6,5 @@ for (Object person : people) {
         people.remove(person);
     }
 }
-// You iterate AND remove elements, elements,
-// risking skipping other candidates for removal
+// 요소를 순회하면서 제거합니다.
+// 다른 제거 대상 후보를 건너뛰는 위험이 있습니다.

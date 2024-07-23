@@ -1,9 +1,9 @@
-// print line total
+// 합계(total) 출력
 double total = item.getPrice() * item.getQuantity();
-System.out.println("Line total: " + total);
+System.out.println("합계: " + total);
 
-// print amount total 
+// 지불 총 액(total) 출력
 total = order.getTotal() - order.getDiscount();
-System.out.println( "Amount due: " + total);
+System.out.println( "지불 총 금액: " + total);
 
-// 'total' variable is reused
+// 'total' 변수는 재사용되었습니다.

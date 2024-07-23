@@ -1,6 +1,6 @@
-class UserScore {  
-  // This is anemic class and should have better protocol
-  
+class UserScore {
+  // 이는 빈약한 클래스로 더 나은 프로토콜이 있어야 합니다.
+
   constructor(name, lastname, points) {
     this._name = name;
     this._lastname = lastname;

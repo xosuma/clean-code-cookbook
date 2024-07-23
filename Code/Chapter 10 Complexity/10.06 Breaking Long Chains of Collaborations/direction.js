@@ -3,9 +3,9 @@ class Dog {
      this.feet = feet;    
   }
   walk() {
-    // This is encapsulated on how the dog walks
+    // 강아지가 걷는 방식이 캡슐화되었습니다.
     for (var foot of this.feet) {
-      foot.move(); 
+      foot.move();
     }
   }
 }

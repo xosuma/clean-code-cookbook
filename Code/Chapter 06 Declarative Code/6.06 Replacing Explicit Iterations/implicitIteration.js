@@ -2,4 +2,4 @@ colors.forEach((color) => {
   console.log(color);
 });
 
-// You use closures and arrow functions
+// 클로저와 화살표 함수를 사용합니다.

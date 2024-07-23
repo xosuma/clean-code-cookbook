@@ -1,10 +1,10 @@
 let counter = 0;
 
 function incrementCounter(value: number): void {
-  // Two side effects  
+  // 두 가지 부작용
   counter += value;
-  // it modifies the global variable counter   
+  // 전역 변수 counter를 수정
   
-  console.log(`Counter is now ${counter}`); 
-  // it logs a message to the console
+  console.log(`현재 카운터는 ${counter}`); 
+  // 콘솔에 메시지 출력
 }

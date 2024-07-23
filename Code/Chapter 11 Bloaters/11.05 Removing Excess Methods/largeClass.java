@@ -1,9 +1,9 @@
 public class MyHelperClass {
   public void print() { }
   public void format() { }
-  // ... many methods more
-
-  // ... even more methods 
+  // ... 댜앙한 메서드가 더 있습니다.
+  
+  // ... 더 많이 있습니다..
   public void persist() { }
   public void solveFermiParadox() { }      
 }

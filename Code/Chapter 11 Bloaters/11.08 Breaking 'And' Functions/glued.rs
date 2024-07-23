@@ -1,3 +1,3 @@
 calculatePrimeFactorsRemoveDuplicatesAndPrintThem()
 
-// Three responsibilities
+// 세 가지 책임

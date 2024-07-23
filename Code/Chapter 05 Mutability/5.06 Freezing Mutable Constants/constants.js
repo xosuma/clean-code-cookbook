@@ -2,10 +2,10 @@ const DISCOUNT_PLATINUM = 0.1;
 const DISCOUNT_GOLD = 0.05;
 const DISCOUNT_SILVER = 0.02;
 
-// Since variables are constants you cannot reassign them
-const DISCOUNT_PLATINUM = 0.05; // Error
+// 변수는 상수로 선언되었기 때문에 재할당할 수 없습니다.
+const DISCOUNT_PLATINUM = 0.05; // 오류
 
-// You can group them
+// 그룹화할 수 있습니다.
 const ALL_CONSTANTS = {
   DISCOUNT: {
     PLATINUM = 0.1;
@@ -14,9 +14,9 @@ const ALL_CONSTANTS = {
   },
 };
 
-const ALL_CONSTANTS = 3.14; // Error
+const ALL_CONSTANTS = 3.14; // 오류
 
-ALL_CONSTANTS.DISCOUNT.PLATINUM = 0.08; // NOT AN ERROR. OOPS!
+ALL_CONSTANTS.DISCOUNT.PLATINUM = 0.08; // 오류가 아님!
 
 const ALL_CONSTANTS = Object.freeze({
   DISCOUNT: 
@@ -25,6 +25,6 @@ const ALL_CONSTANTS = Object.freeze({
     SILVER = 0.02; 
 });
 
-const ALL_CONSTANTS = 3.14; // Error
+const ALL_CONSTANTS = 3.14; // 오류
 
-ALL_CONSTANTS.DISCOUNT.PLATINUM = 0.12; // NOT AN ERROR. OOPS!
+ALL_CONSTANTS.DISCOUNT.PLATINUM = 0.12; // 오류가 아님!

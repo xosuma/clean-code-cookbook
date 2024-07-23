@@ -3,8 +3,8 @@ public class Name {
 
     public Name(String name) {
         this.name = name;
-        // Name has its own creation rules, comparison, etc.
-        // Might be different than a string
+        // 이름에는 자체적으로 고유한 생성 규칙, 비교 등이 있습니다.
+        // 문자열과 다를 수 있습니다.
     }
 }
   
@@ -12,8 +12,8 @@ public class Person {
     private final Name name; 
 
     public Person(Name name) {
-        // Name is created as a valid one,
-        // you don't need to add validations here 
+        // 유효한 이름으로 생성됩니다.
+        // 이곳에 유효성 검증을 추가하지 않아도 됩니다.
         this.name = name;
     }
 }

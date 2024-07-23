@@ -13,4 +13,4 @@ final class GeographicCoordinate {
 }
 
 $coordinate = new GeographicCoordinate(1000, 2000);
-// throws an error since these values don't exist on Earth
+// 이 값은 지구상에 존재하지 않으므로 오류를 발생시켜야 합니다.

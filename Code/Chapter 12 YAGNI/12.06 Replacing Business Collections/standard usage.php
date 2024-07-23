@@ -1,10 +1,10 @@
 <?php
 
-// final class Dictionary is no longer needed
-    
-// The tests use a standard class
-// In PHP you use associative arrays
-// Java and other languages have HashTables, Dictionaries etc. etc.
+// final class Dictionary는 더 이상 필요하지 않습니다.
+
+// 해당 테스트는 표준 클래스를 사용합니다.
+// PHP에서는 연관 배열을 사용합니다.
+// 자바와 다른 언어에서는 해시 테이블, 딕셔너리 등을 사용합니다.
 
 final class DictionaryTest extends TestCase {
     public function test01EmptyDictionaryHasNoWords() {

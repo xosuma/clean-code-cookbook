@@ -4,7 +4,7 @@ class Dream:
 
 nightmare = Dream()
 
-nightmare.presentation = "I am the Sandman"
+nightmare.presentation = "나는 스파이더맨"
 
 print(nightmare.presentation) 
-# Output: "I am the Sandman"
+# 결과: "나는 스파이더맨"

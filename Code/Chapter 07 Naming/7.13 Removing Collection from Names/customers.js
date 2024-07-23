@@ -1,3 +1,3 @@
 for (var customer in customers) {
-    // iterate with current customer
+  // customer를 차례대로 꺼내서 사용
 }
