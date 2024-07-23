@@ -7,11 +7,12 @@ class Date:
     def setMonth(self, month):
         self.month = month
 
-startDate = Date(3, 11, 2020)
+
+start_date = Date(3, 11, 2020)
 # 성공
 
-startDate = Date(31, 11, 2020)
+start_date = Date(31, 11, 2020)
 # 실패합니다
 
-startDate.setMonth(13)
+start_date.setMonth(13)
 # 불변성이 존재하므로 실패합니다.
