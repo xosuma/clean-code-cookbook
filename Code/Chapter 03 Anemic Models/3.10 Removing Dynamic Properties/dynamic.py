@@ -3,9 +3,9 @@ class Dream:
 
 nightmare = Dream()
 
-nightmare.presentation = "I am the Sandman"
-# presentation is not defined
-# it is a dynamic property
+nightmare.presentation = "나는 스파이더맨"
+# presentation은 정의되지 않았습니다.
+# 이는 동적 속성입니다.
 
 print(nightmare.presentation) 
-# Output: "I am the Sandman"
+# Output: "나는 스파이더맨"

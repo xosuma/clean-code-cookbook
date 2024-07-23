@@ -14,7 +14,7 @@ final class Window {
     }
 
     public function addChildren($aChild) {
-        // Do not expose internal attributes
+        // 내부 속성을 노출하지 마세요.
         return $this->children[] = $aChild;
     }
 }
