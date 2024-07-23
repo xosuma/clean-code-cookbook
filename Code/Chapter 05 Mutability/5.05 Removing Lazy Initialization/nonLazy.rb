@@ -6,5 +6,5 @@ class Employee
     @voice_mails = []
   end
 end
-# You can also inject a design pattern to externally deal
-# with voice_mails so you can mock it in your tests
+# 음성 메일(voice_mails)을 외부에서 처리하는 디자인 패턴을 삽입해
+# 테스트에서 이를 모의할 수 있습니다.

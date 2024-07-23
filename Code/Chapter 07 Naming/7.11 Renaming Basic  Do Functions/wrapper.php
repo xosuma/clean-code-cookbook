@@ -19,6 +19,6 @@ final class Calculator {
     }
 
     private function basicComputeSomething() {
-        // Do Real work here
+        // 실제 동작은 이곳에서 이루어집니다.
     }
 }

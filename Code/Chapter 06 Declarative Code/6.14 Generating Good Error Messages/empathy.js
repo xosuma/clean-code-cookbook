@@ -1,7 +1,8 @@
-alert("Cancel the appointment? \n" +
-      "You will lose all the history", 
-      "Cancel Appointment", 
-      "Keep Editing");
+alert(
+  "약속을 취소하겠습니까? \n" + "모든 기록을 잃게 됩니다.",
+  "약속 취소하기",
+  "계속 수정하기"
+);
 
-// The consequences are clear
-// The choice options have context
+// 결과가 명확합니다.
+// 옵션이 더 구체적입니다.

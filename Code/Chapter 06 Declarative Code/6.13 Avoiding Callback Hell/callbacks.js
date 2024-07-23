@@ -10,7 +10,7 @@ asyncFunc1(function (error, result1) {
           if (error) {
             console.log(error);
           } else {
-            // Nested callback continues...
+            // 중첩 콜백은 계속 이루어집니다...
           }
         });
       }

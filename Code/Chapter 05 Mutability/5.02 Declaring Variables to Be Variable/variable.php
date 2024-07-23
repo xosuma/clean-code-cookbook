@@ -2,7 +2,7 @@
 
 function configureUser() {
     $password = '123456';
-    // Setting a password on a variable is a vulnerability
+    // 변수에 비밀번호를 설정하는 것은 취약점입니다.
     $user = new User($password);
-    // Notice variable doesn't change
+    // 변수가 변경되지 않는 것을 확인하세요.
 }

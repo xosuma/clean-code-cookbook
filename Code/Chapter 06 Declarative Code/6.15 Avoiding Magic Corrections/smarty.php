@@ -6,4 +6,4 @@ new Date(31, 02, 2020);
 
 !3;
 
-// Valid on most languages
+// 이는 대부분의 언어에서 유효합니다.

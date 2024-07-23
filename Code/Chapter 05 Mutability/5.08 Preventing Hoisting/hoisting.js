@@ -1,6 +1,6 @@
 console.log(willBeDefinedLater); 
-// Output: undefined (but no error)
+// 결과: undefined (오류 없음)
 
 var willBeDefinedLater = "Beatriz";
 console.log(willBeDefinedLater); 
-// Output: "Beatriz"
+// 결과: "Beatriz"

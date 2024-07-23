@@ -1,3 +1,3 @@
 PlanetarySystem.PlanetarySystemCentralStarCatalogEntry
 
-// Redundant
+// 너무 깁니다.

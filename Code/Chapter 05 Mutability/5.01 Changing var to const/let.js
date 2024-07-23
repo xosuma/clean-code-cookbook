@@ -1,5 +1,5 @@
-const pi = 3.14 // Value cannot mutate or change 
-let universeAgeInYears = 13.800.000.000 // Value can change
+const pi = 3.14 // 값 변경 불가능
+let universeAgeInYears = 13.800.000.000 // 값 변경 가능
 
-pi = 3.1415 // error. cannot define
-universeAgeInYears = 13.800.000.001 // no error
+pi = 3.1415 // 오류 발생
+universeAgeInYears = 13.800.000.001 // 오류 없음

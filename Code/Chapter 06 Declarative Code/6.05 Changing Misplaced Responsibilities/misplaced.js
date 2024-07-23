@@ -1,22 +1,22 @@
 function add(a, b) {
   return a + b;
 }
-// this is natural in many programming languages,
-// but unnatural in real life
+// 이는 많은 프로그래밍 언어에서 자연스럽지만, 실생활에서는 부자연스럽습니다.
 
 class GraphicEditor {
   constructor() {
     this.PI = 3.14;
-    // You shouldn't define the constant here
+    // 이곳에 상수를 정의하면 안 됩니다.
   }
 
   pi() {
     return this.PI;
-    // Not this object's responsibility
+    // 이는 객체의 책임이 아닙니다.
   }
 
   drawCircle(radius) {
-    console.log("Drawing a circle with radius ${radius} " +
-    "and circumference " + (2 * this.pi()) * radius");
+    console.log(
+      `원 그리기: 반지름은 ${radius} ` + "둘레는 " + 2 * this.pi() * radius
+    );
   }
 }
