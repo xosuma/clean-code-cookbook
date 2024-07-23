@@ -1,17 +1,17 @@
-getFactorial(n) {
+fun getFactorial(n) {
   return n * getFactorial(n);
 }
 
-// Change
+// 변경
 
-getFactorial(n) {
+fun getFactorial(n) {
   return n * getFactorial(n-1);
 }
 
-// Run the tests
+// 테스트 진행
 
-factorial(n) {
+fun factorial(n) {
   return n * factorial(n-1);
 }
 
-// Rename
+// 이름 변경

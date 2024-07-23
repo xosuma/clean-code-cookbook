@@ -1,10 +1,10 @@
 public class Car {
     public void start() {
-        System.out.println("Running...");
+        System.out.println("실행 중...");
     }
     public void stop() {
-        System.out.println("Stopping...");
+        System.out.println("중단 중...");
     }
 }
 
-// Wait until you discover more concrete vehicles
+// 더 이상의 구체화된 운송 수단이 없습니다.

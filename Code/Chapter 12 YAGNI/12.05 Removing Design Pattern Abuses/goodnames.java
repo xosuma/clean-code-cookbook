@@ -1,5 +1,5 @@
 public final class FileSystem {
-    // These names map 1:1 to real-world concepts
+    // 해당 명칭은 현실과 1:1 매핑이 됩니다.
 }
 
 public final class DateTimeFormatter { }

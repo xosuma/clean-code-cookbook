@@ -1,5 +1,5 @@
 public final class FileTreeComposite {
-    // name should be inferred from behavior
+    // 실제 구현 동작에 기반한 이름을 사용하세요.
 }
     
 public final class DateTimeConverterAdapterSingleton { }

@@ -18,8 +18,7 @@ final class Dictionary {
     }
 }
 
-// This has protocol similar to an abstract datatype dictionary
-// And the tests
+// 여기에는 추상 데이터 타입 사전과 유사한 프로토콜 그리고 테스트가 있습니다.
   
 final class DictionaryTest extends TestCase {
     public function test01EmptyDictionaryHasNoWords() {

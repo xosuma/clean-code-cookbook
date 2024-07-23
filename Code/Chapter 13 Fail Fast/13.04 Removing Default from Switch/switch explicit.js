@@ -1,19 +1,19 @@
 switch (value) {
   case value1:
-    // if value1 matches the following will be executed..
+    // value1과 일치하면 다음이 실행됩니다.
     doSomething();
     break;
   case value2:
-    // if value2 matches the following will be executed..
+    // value2와 일치하면 다음이 실행됩니다.
     doSomethingElse();
     break;
   case value3:
   case value4:
-    // You currently know these options exist
+    // 현재 다음과 같은 옵션이 있다는 것을 알고 있습니다.
     doSomethingSpecial();
     break;
   default:
-    // if value does not match the above values you need a decision
-    throw new Exception('Unexpected ' + value + ' need to consider it');
+    // 값이 위의 값과 일치하지 않으면 결정을 내려야 합니다.
+    throw new Exception("예상치 못한 경우 " + value + "를 고려해야 합니다.");
     break;
 }

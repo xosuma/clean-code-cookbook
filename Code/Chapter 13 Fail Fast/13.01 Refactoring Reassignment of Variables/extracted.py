@@ -1,22 +1,25 @@
 class Item:
-  def taxesCharged(self):
-    return 1;
-  
-def buySupper():
-  supperPurchase = Item('Soda');
-  # Do something with the purchase
- 
-  # Lots of stuff related to the purchase
-  # You drink the soda
-  return supperPurchase;
+    def taxes_charged(self):
+        return 1
 
-def buyDrinks():
-  # You could extract method! 
 
-  # a few hours later..
-  drinksPurchase = Item('Whisky');
-  # You bough another drink
-  
-  return drinksPurchase;
+def buy_supper():
+    supper_purchase = Item('Soda')
+    # 구매로 무언가를 합니다.
 
-taxAmount = buySupper().taxesCharged() + buyDrinks().taxesCharged();
+    # 구매와 관련된 다양한 정보가 있습니다.
+    # 음료를 마십니다.
+    return supper_purchase
+
+
+def buy_drinks():
+    # 메서드를 추출할 수 있습니다!
+
+    # 몇 시간 후...
+    drinks_purchase = Item('Whisky')
+    # 또 다른 음료를 구매합니다.
+
+    return drinks_purchase
+
+
+tax_amount = buy_supper().taxes_charged() + buy_drinks().taxes_charged()
