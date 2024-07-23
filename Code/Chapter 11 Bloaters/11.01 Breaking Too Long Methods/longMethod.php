@@ -3,10 +3,9 @@
 function setUpChessBoard() {
     $this->placeOnBoard($this->whiteTower);
     $this->placeOnBoard($this->whiteKnight);
-    // A lot more lines
-    
-    // Empty space to pause definition
+    // 여러 줄
+    // .....
+    // 빈 줄로 정의 나눔
     $this->placeOnBoard($this->blackTower);
     $this->placeOnBoard($this->blackKnight);
-    // A lot more lines
 }

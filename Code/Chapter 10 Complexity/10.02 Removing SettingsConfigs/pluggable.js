@@ -6,4 +6,4 @@ class VerySpecificAndSmallObjectDealingWithPersistency {
     this.retrieveStrategy.retrieveData();        
   }
 }
-// You get rid of the if condition by using a polymorphic strategy
+// 다향성 전략을 사용해 if 조건을 제거합니다.

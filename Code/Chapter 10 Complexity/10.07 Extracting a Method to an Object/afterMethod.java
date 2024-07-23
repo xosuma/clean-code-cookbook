@@ -5,12 +5,11 @@ class BlockchainAccount {
   }
 }
 
-// 1. Create an object to represent an invocation of the method
-// 2. Move the big method to the new object
-// 3. Convert the temporary variables of the method into private attributes.
-// 4. Break the big method in the new object by using The Extract Method
-// 5. Remove parameters from method invocation 
-// by also converting them to private attributes 
+// 1. 메서드 호출을 나타내는 객체를 생성합니다.
+// 2. 큰 메서드를 새 객체로 이동합니다.
+// 3. 메서드의 임시 변수를 private 속성으로 변환합니다.
+// 4. 메서드 추출을 사용해 큰 메서드를 새 객체에서 분리합니다.
+// 5. 메서드 호출에서 매개변수를 private 속성으로 변환해 제거합니다.
 
 class BalanceCalculator {
   private string address;

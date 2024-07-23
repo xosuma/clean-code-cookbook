@@ -2,7 +2,7 @@ interface Animal {
   void eat();
   void sleep();
   void makeSound();
-  // This protocol should be common to all animals
+  // 이 프로토콜은 모든 동물에게 공통으로 적용되어야 합니다.
 }
 
 class Dog implements Animal {
@@ -14,17 +14,17 @@ class Dog implements Animal {
 class Fish implements Animal
   public void eat() { }
   public void sleep() {
-    throw new UnsupportedOperationException("I do not sleep");
+    throw new UnsupportedOperationException("나는 잠을 자지 않는다.");
   }
   public void makeSound() {
-    throw new UnsupportedOperationException("I cannot make sounds");
+    throw new UnsupportedOperationException("나는 소리를 내지 않는다.");
   }
 }
 
 class Bullfrog implements Animal
   public void eat() { }
   public void sleep() { 
-    throw new UnsupportedOperationException("I do not sleep");  
+    throw new UnsupportedOperationException("나는 잠을 자지 않는다.");  
   }
   public void makeSound() { }
 }

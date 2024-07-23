@@ -4,7 +4,7 @@ final public class PrintMargins { }
 final public class PrintRange { }  
 final public class ColorConfiguration { }
 final public class PrintOrientation { }
-// Class definition with methods and properties omitted for simplicity
+// 단순화하고자 메서드와 속성이 생략된 클래스 정의
 
 final public class PrintSetup {
     public PrintSetup(PaperSize papersize,

@@ -17,11 +17,13 @@ function retrieveImagesFrom(string imageUrls) {
                 $localFileSha1, $imageFilename, $images, $imageName);
             if (!$found) {
                 throw new Exception(
-                  'File not found locally (' . $imageFilename 
-                + ') Need to retrieve it and store it');
+                  '로컬에서 파일을 찾을 수 없습니다. (' . $imageFilename 
+                + ') 다시 찾아서 저장해야 합니다.');
             }
         } else {
-            throw new \Exception('Image does not exist on directory ' .
+            throw new \Exception('이미지가 더 이상 디렉터리에 존재하지 않습니다 ' .
                $fullImageName);
         }
     }
+  }
+}

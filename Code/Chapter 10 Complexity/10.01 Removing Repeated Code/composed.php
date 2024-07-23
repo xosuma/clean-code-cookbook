@@ -12,7 +12,7 @@ final class TextReplacer {
     }
 }
 
-// Lots of tests on text replacer so you can gain confidence.
+// 다양한 테스트 작성을 통해 텍스트 교체기에 대한 신뢰도를 높일 수 있습니다.
 
 final class WordProcessor {
     function replaceText(string $patternToFind, string $textToReplace) {

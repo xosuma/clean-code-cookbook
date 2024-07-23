@@ -4,7 +4,7 @@ console.log(arrayWithTwoElements); // [ 3, 1 ]
 console.log(arrayWithTwoElements[0]); // 3
 console.log(arrayWithTwoElements[1]); // 1
 console.log(arrayWithTwoElements[2]); // Undefined
-console.log(arrayWithTwoElements[5]); // Undefined (should be out of range)
+console.log(arrayWithTwoElements[5]); // Undefined (범위 벗어남이 나타나야함)
 console.log(arrayWithTwoElements.length); // 2
 
 const arrayWithTwoElementsLiteral = [3,1];

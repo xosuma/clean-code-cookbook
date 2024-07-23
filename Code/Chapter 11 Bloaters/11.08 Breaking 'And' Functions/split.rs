@@ -4,5 +4,4 @@ removeDuplicates();
 
 printNumbers();
 
-// Three different methods
-// You can test them and reuse them
+// 세 가지 다른 메서드로 테스트와 재사용이 가능합니다.
