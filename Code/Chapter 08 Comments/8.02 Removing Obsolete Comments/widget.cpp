@@ -1,10 +1,9 @@
 void Widget::displayPlugin(Unit* unit){
 
-  // TODO the Plugin will be modified soon, 
-  // so I don't implement this right now
+// TODO 플러그인은 곧 수정될 예정이므로, 지금은 구현하지 않습니다.
 
   if (!isVisible) {
-    // hide all widgets
+    // 모든 위젯 숨김
     return;
   }
 }

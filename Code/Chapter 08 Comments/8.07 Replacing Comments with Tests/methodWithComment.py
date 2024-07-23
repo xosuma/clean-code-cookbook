@@ -1,11 +1,11 @@
 def multiply(a, b):
-    # This function multiplies two numbers and returns the result
-    # If one of the numbers is zero, the result will be zero
-    # If the number are both positive, the result will be positive
-    # If the number are both negative, the result will be positive
-    # The multiplication is done by invoking a primitive
+    # 이 함수는 두 숫자를 곱한 결과를 반홥합니다.
+    # 만약 숫자 중 하나가 0이면 결과는 0입니다.
+    # 만약 두 숫자가 모두 양수이면 결과는 양수입니다.
+    # 만약 두 숫자가 모두 음수이면 결과는 양수입니다.
+    # 곱셈은 기본 연산자를 호출해 수행됩니다.
     return a * b
 
-# This code has a comment that explains what the function does.
-# Instead of relying on this comment to understand the behavior of the code,
-# You can write some unit tests that verify the behavior of the function.
+# 이 코드에는 함수의 기능을 설명하는 주석이 있습니다.
+# 코드의 동작을 이해하기 위해 이 주석에 의존하는 대신
+# 함수의 동작을 확인하는 몇 가지 단위 테스트를 작성할 수 있습니다.
