@@ -1,4 +1,4 @@
  public Person();
 
-// Anemic and mutable
-// Does not have the essence to be a valid person
+// 빈약하고 변이될 수 있습니다.
+// 유효한 사람이 되기 위한 본질이 없습니다.
