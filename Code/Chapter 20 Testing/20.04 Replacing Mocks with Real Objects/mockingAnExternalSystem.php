@@ -15,7 +15,7 @@ class PaymentTest extends \PHPUnit_Framework_TestCase
         );
 
         $payment = new Payment();
-        // Payment is a real one
+        // Payment(결제)는 실제 결제입니다
 
         $response = new \stdClass();
         $response->approved = true;
@@ -26,7 +26,7 @@ class PaymentTest extends \PHPUnit_Framework_TestCase
                 array($payment::API_ID, $payment::TRANS_KEY))
             ->getMock();
         
-        // External system is mocked
+        // 외부 시스템은 모의되었습니다.
 
         $authorizeNet->expects($this->once())
             ->method('authorizeAndCapture')

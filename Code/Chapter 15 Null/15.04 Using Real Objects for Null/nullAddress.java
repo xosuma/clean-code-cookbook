@@ -4,8 +4,7 @@ abstract class Address {
 	public abstract String getZipCode();
 }
 
-// Using inheritance for null objects is a mistake
-// You should use interfaces (when available)
+// null 객체에 상속을 사용하는 것은 실수입니다.
 public class NullAddress extends Address {
 	
 	public NullAddress() { }

@@ -8,5 +8,4 @@ if (user?.credentials?.notExpired) {
 
 user.functionDefinedOrNot?.();
 
-// Seems compact but it is hacky and has lots
-// of potential NULLs and Undefined
+// 간결해 보이지만 정석적이지 않고 잠재적인 null과 정의되지 않은 항목이 많습니다.

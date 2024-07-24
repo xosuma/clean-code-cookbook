@@ -1,4 +1,4 @@
-// There are just "addresses"
+// 주소만 있습니다.
 public class Address {
 	
     private String zipCode;
@@ -30,7 +30,8 @@ Address nullAddress = new Address(
     Constants.EMPTY_STRING, 
     Constants.EMPTY_STRING, 
     Constants.EMPTY_STRING);
-// You have your null object
-// You should NOT assign it to a singleton, static or global
-// It behaves like a null object. That's enough
-// No premature optimizations
+
+// 이것은 null 객체입니다.
+// 싱글턴, 정적, 전역에 할당해서는 안 됩니다.
+// null 객체처럼 작동합니다. 이 정도면 충분합니다.
+// 섣부른 최적화는 없습니다.

@@ -19,7 +19,6 @@ class Student {
     }
 }
 
-// The ids are no longer needed since they don’t exist in the real world.
-// If you need to expose a School to an external API or a database,
-// another object (not school)
-// will keep the mapping externalId<->school and so on
+// ID는 현실 세계에 존재하지 않으므로 더 이상 필요하지 않습니다.
+// School을 외부 API나 데이터베이스에 노출해야 하는 경우, school이 아닌 다른 객체가
+// externalId(외부id)<->school 등의 매핑으로 유지합니다.

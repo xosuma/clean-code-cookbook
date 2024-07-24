@@ -8,4 +8,4 @@ fn validate_years(value: i32) {
 	validate_min_integer(value, 0);
 }
 	
-// Duplication is accidental, therefore you should not abstract it	
+// 중복은 우발적인 것이므로 추상화해서는 안 됩니다.

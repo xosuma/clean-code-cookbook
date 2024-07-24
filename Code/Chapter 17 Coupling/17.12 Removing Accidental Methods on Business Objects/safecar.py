@@ -9,5 +9,5 @@ class car:
         self.move()
         
     def startEngine(self):
-        ## code to start engine
+        # 엔진 시동을 시작하는 코드
         self.engine.start() 

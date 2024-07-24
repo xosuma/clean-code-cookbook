@@ -12,12 +12,12 @@ final class Address {
 class Job {
  void printAddress() {
 
-   System.out.println("This is your position address");
+   System.out.println("현재 위치 주소입니다.");
 
    this.address().print());
    
    if (this.address().isInCountry(this.country()) {
-        System.out.println("It is a local job");
+        System.out.println("현지 일자리입니다.");
    } 
  } 
 }

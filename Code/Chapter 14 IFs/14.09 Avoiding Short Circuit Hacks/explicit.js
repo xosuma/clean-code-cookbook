@@ -5,4 +5,4 @@ if (userIsValid()) {
 if(typeof functionDefinedOrNot == 'function') {  
     functionDefinedOrNot();
 }
-// Checking for a type is another code smell
+// typeOf를 확인하는 것이 좋은 방식은 아닙니다.

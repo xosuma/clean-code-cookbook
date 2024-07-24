@@ -5,6 +5,8 @@ class Song {
     }
 
     play() {
-        console.log(`Playing ${this.title} by ${this.artist}`);
+        console.log(
+          `듣고 있습니다, 노래제목: ${this.title} 작곡가:${this.artist}`
+        );
     }
 }

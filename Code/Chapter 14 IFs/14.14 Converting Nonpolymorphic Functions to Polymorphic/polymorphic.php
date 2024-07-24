@@ -6,18 +6,18 @@ interface Sortable {
 
 class Array implements Sortable {
    public function sort() {
-      // Implementation of the sort() method for Array
+      // Array에 대한 sort() 메서드 구현
    }
 }
 
 class List implements Sortable {
    public function sort() {
-      // Implementation of the sort() method for List
+      // List 대한 sort() 메서드 구현
    }
 }
 
 class Stack implements Sortable {
    public function sort() {
-      // Implementation of the sort() method for Stack
+      // Stack에 대한 sort() 메서드 구현
    }
 }

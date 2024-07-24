@@ -3,4 +3,4 @@
 function buildCar($model, $color = "Red", ){...}
 
 buildCar("Volvo")}} 
-// Works as expected
+// 기대와 동일합니다.

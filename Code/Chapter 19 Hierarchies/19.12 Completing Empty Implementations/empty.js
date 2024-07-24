@@ -1,12 +1,12 @@
 class MerchantProcessor {
   processPayment(amount) {
-    // no default implementation
+    // 기본 구현 없음
   }
 }
 
 class MockMerchantProcessor extends MerchantProcessor {
   processPayment(amount) {
-     // Empty implementation to comply with the compiler
-     // Won't do anything
+    // 컴파일러를 준수하기 위한 빈 구현
+    // 아무것도 하지 않음
   }
 }

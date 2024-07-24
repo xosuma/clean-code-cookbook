@@ -4,7 +4,7 @@ for (outerIterator = 0; outerIterator< 3; outerIterator++) {
     }
 }
 
-// This is a readable double for-loop
-// 3 is a small number
-// No performance issues (by now)
-// You will wait for real evidence
+// 읽을 수 있는 중첩 반복문입니다.
+// 3은 작은 숫자입니다.
+// 현재로서 성능 문제는 없습니다.
+// 실제 증거를 기다릴 예정입니다.

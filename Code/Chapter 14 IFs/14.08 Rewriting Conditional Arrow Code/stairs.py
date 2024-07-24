@@ -7,8 +7,7 @@ def is_platypus(self):
                         return True
     return False
 
-# This is also wrong since it is polluted 
-# with IFs and not readable by a biologist
+# 이 또한 if로 오염되어 생물학자가 읽을 수 없을만큼 가독성이 떨어집니다.
 def is_platypus(self):
     if not self.is_mammal():
         return False

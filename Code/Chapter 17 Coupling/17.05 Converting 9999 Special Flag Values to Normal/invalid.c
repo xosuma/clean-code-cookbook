@@ -6,15 +6,15 @@ int main(void)
     if (id == INVALID_VALUE)
     { 
         return EXIT_FAILURE;  
-        // id is a flag and also a valid domain value        
+        // id는 플래그이며 유효한 도메인 값이기도 합니다.
     }
     return id;
 }
 
 int get_value() 
 {
-  // something bad happened
+  // 나쁜 일이 발생했습니다.
   return INVALID_VALUE;
 }
 
-// returns EXIT_FAILURE (1)
+// 결과: EXIT_FAILURE (1)

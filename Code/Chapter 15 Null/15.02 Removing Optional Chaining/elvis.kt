@@ -1,1 +1,1 @@
-val shipTo = address?: "No address specified"
+val shipTo = address?: "주소가 지정되지 않았습니다"

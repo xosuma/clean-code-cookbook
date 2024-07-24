@@ -3,7 +3,5 @@ const Item = ({name, handlePageChange)} =>
     {name}
   </li>
 
-// handlePageChange is coupled with what you decide to do
-// instead of what really happened
-//
-// You cannot reuse this kind of callback
+// handlePageChange는 실제로 일어난 일 대신 사용자가 결정한 작업과 결합됩니다.
+// 이러한 종류의 콜백은 재사용할 수 없습니다.

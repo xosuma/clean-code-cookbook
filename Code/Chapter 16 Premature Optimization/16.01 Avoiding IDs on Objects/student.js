@@ -1,7 +1,7 @@
 class Teacher {
     static getByID(id) {
-        // This is coupled to the database
-        // Thus violating separation of concerns
+      // 이는 데이터베이스와 결합되어 있습니다.
+      // 따라서 관심사 분리(Soc)를 위반합니다.
     }
 
     constructor(id, fullName) {
@@ -12,7 +12,7 @@ class Teacher {
 
 class School {
     static getByID(id) {
-        // go to the coupled database
+      // 결합된 데이터베이스로 이동합니다.
     }
 
     constructor(id, address) {

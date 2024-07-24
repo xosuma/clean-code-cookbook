@@ -6,9 +6,9 @@ class Person {
   
   email() {
     return this.email;
-    // might be null    
+    // null일 수 있습니다.
   }  
 }
 
-// You cannot use safely person.email()
-// You need to check for null explicitly
+// person.email()을 안전하게 사용할 수 없습니다.
+// 명시적으로 null인지 확인해야 합니다.

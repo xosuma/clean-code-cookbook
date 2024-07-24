@@ -29,7 +29,7 @@ class EarthLocation(val latitude: Double, val longitude: Double):
 class UnknownLocation : Location() {
     override fun calculateDistance(other: Location): Double {
         throw IllegalArgumentException(
-            "Cannot calculate distance from an unknown location.")
+            "알 수 없는 위치에서 거리를 계산할 수 없습니다.")
     }
 
     override fun ifKnownOrElse(knownAction:
@@ -42,20 +42,20 @@ class Person(val name: String, val location: Location)
 
 fun main() {
     val people = listOf(
-        Person("Alice", EarthLocation(40.7128, -74.0060)), // New York City
-        Person("Bob", EarthLocation(51.5074, -0.1278)), // London
-        Person("Charlie", EarthLocation(48.8566, 2.3522)), // Paris
-        Person("Tony", UnknownLocation()) // Unknown location
+        Person("Alice", EarthLocation(40.7128, -74.0060)), // 뉴욕
+        Person("Bob", EarthLocation(51.5074, -0.1278)), // 런던
+        Person("Charlie", EarthLocation(48.8566, 2.3522)), // 파리
+        Person("Tony", UnknownLocation()) // 알 수 없는 위치
     )
     val rio = EarthLocation(-22.9068, -43.1729)
-    // Rio de Janeiro coordinates
+    // 리우데자네이루 지리 좌표
 
     for (person in people) {
         person.location.ifKnownOrElse(
-            { location -> println(person.name" is " +
+            { location -> println(person.name"은/는 " +
                 person.location.calculateDistance(rio) +
-                    " kilometers { println("${person.name} " 
-                        + "is at an unknown location.") }
+                    " 킬로미터 떨어져 있습니다. { println("${person.name} " 
+                        + " - 알 수 없는 위치에 있습니다") }
        )
     }
 }

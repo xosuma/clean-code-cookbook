@@ -14,7 +14,7 @@ final class Poll {
     }
 }
 
-// Valid
+// 유효합니다.
 new Poll([]);
 new Poll([], true);
 new Poll([], true , new NormalValidationPolicy());

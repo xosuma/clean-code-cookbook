@@ -14,8 +14,6 @@ public class Main {
   }
 }
 
-// The output is "Address: Doha"
-//
-// If you change privacy to 'private class City' 
-//
-// you will get an error " Address.City has private access in Address"
+// 출력은 다음과 같습니다: "Address: Doha"
+// 만약 공개 여부를 'private class City'와 같이 변경하면
+// 다음과 같은 오류가 발생합니다: "Address.City has private access in Address"

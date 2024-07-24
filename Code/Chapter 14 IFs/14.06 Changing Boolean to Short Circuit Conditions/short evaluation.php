@@ -1,5 +1,5 @@
 <?
 
 if (isOpen(file) && size(contents(file)) > 0)
-  // Short circuit evaluation 
-  // If the file is not open it willtry to get the contents  
+  // 단락 평가
+  // 파일이 열려 있지 않으면 콘텐츠를 가져오려고 시도하지 않습니다.

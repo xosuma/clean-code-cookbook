@@ -5,10 +5,10 @@ final class RangeUnitTest extends TestCase {
   function testValidOffset() {
     $range = new Range(1, 1);
     $offset = $range->offset();
-    $this->assertEquals(10, $offset, 'Pages must have 10 as offset');
-    // Expected value should always be first argument
-    // You add a functional essential description
-    // to complement accidental description provided by tests
+    $this->assertEquals(10, $offset, '모든 페이지는 늘 offset이 10이어야 합니다.');
+    // 예상값은 항상 첫 번째 인수가 되어야 합니다.
+    // 기능적 필수 설명을 추가합니다.
+    // 테스트에서 제공하는 우발적인 설명을 보완합니다.
   }  
 }
 

@@ -7,5 +7,5 @@ class Mp3Converter {
     } else if(mimeType.equals("audio/ogg")) {
         this.convertOggToMp3(source)
     } else if(...) {
-        // Lots of new clauses
+        // 아주 많은 else 문이 존재함
 }

@@ -14,6 +14,5 @@ public class Main {
   }
 }
 
-// The output is "Address: Doha"
-//
-// Now you can reuse and test the City concept
+// 출력은 다음과 같습니다 "Address: Doha"
+// 이제 도시(City) 개념을 재사용하고 테스트할 수 있습니다.

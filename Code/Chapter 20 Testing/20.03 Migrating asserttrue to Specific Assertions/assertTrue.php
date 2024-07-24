@@ -6,8 +6,8 @@ final class RangeUnitTest extends TestCase {
     $range = new Range(1, 1);
     $offset = $range->offset();
     $this->assertTrue(10 == $offset);    
-    // No functional essential description :(
-    // Accidental description provided by tests is very bad
+    // 기능적 필수 설명이 없습니다. :(
+    // 테스트에서 제공하는 우발적인 설명은 매우 도움이 되지 않습니다.
   }  
 }
 

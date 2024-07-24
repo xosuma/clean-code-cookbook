@@ -10,12 +10,12 @@ final class Poll {
     }
 }
 
-// invalid
+// 유효하지 않습니다.
 new Poll([]);
 new Poll([], new NoAnonnyomousValidStrategy());
 new Poll([], , new StrictValidationPolicy());
 
-// Valid
+// 유효합니다.
 new Poll(
     [], 
     new NoAnonnyomousValidStrategy(), new StrictValidationPolicy()

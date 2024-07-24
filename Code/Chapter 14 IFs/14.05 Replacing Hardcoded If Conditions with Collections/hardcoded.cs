@@ -6,7 +6,7 @@ private string FindCountryName (string internetCode)
     return "France";
   else if(internetCode == "ar")
     return "Argentina";
-    // lots of else clauses
+    // 많은 else 문 존재
   else
-    return "Suffix not Valid";
+    return "유효하지 않은 코드입니다.";
 }

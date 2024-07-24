@@ -10,15 +10,15 @@ class Moviegoer {
     this.age = age;
   }
   watchMovie(movie) {
-    if ((this.age < 18) && (movie.rate == 'Adults Only'))
-      throw new Error("You are not allowed to watch this movie");
-    
-    // watch movie
+    if (this.age < 18 && movie.rate == "성인 전용")
+      throw new Error("이 영화를 시청할 수 없습니다.");
+
+    // 영화를 시청하세요.
   }
 }
 
 let jane = new Moviegoer(12);
-let theExorcist = new Movie('Adults Only');
+let theExorcist = new Movie("성인 전용");
 
 jane.watchMovie(theExorcist);
-// Jane cannot watch the exorcist since she is 12
+// 제인은 12살이어서 영화 <엑소시트스>를 시청할 수 없습니다.

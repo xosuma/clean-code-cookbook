@@ -1,18 +1,18 @@
 abstract public class Vehicle
 {
-  // the class is not a leaf. Therefore it must be abstract  
- 
-  //an abstract method that only declares, but does not define the start 
-  //functionality because each vehicle uses a different starting mechanism
+  // 클래스는 리프가 아닙니다. 따라서 꼭 abstract이어야 합니다.
+
+  // 시동 기능을 정의하지 않고 선언만 하는 abstract 메서드입니다.
+  // 차량마다 다른 시동 메커니즘을 사용하기 때문입니다.
   abstract void start();
 }
 
 final public class Car extends Vehicle
 {
-  // the class is a leaf. Therefore it is final
+  // 클래스는 리프입니다. 따라서 final입니다.
 }
 
 final public class Motorcycle extends Vehicle
 {
-  // the class is a leaf. Therefore it is final
+  // 클래스는 리프입니다. 따라서 final입니다.
 }

@@ -1,11 +1,10 @@
 class Webpage {
-  
   renderHTML() {
     this.renderDocType();
     this.renderTitle();
-    (new RSSFeed()).render();
+    new RSSFeed().render();
   }
-  // HTML render can change
+  // HTML 렌더링이 변경될 수 있습니다.
 }
 
 class RSSFeed {
@@ -14,8 +13,7 @@ class RSSFeed {
     this.renderTitle();
     this.renderPubDate();
     // ...
-  }  
-  // RSS Format might change
-  // Might have unitary tests
-  // etc
+  }
+  // RSS 형식이 변경될 수 있습니다.
+  // 단일 테스트 등이 있을 수 있습니다.
 }

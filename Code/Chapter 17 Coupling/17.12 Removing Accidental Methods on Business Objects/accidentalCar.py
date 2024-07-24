@@ -9,29 +9,29 @@ class car:
         self.move()
         
     def startEngine(self):
-        ## code to start engine
+        # 엔진 시동을 시작하는 코드
         self.engine.start()
     
     def display(self):
-        print ('This is a', self._color, self.company)
-        ## Displaying is accidental
+        # 표시는 우발적입니다.
+        print('이는 ', self._color, self.company)
         
     def toJSon(self):
-        ## Serializing is accidental
+        # 직렬화는 우발적입니다.
         return "json"
         
     def updateOnDatabase(self):
-        ## Persistence is accidental
+        # 지속성은 우발적입니다.
         this.database.update(this)
         
     def getId(self):
-        ## identifiers are accidental
+        # 식별자는 우발적입니다.
         return id;
         
     def fromRow(self, row):
-        ## Persistence is accidental
+        # 지속성은 우발적입니다.
         this.database.convertFromRow(row, this);
         
     def forkCar(self):
-        ## Concurrency is accidental
+        # 동시성은 우발적입니다.
         ConcurrencySemaphoreSingleton.getInstance().forkCar(this)

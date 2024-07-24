@@ -5,9 +5,9 @@ class Time {
      this.seconds = seconds;  
   }
     now() {
-      // call operating system
+      // 운영 체제 호출
     }  
 }
 
-// Adding a TimeZone will have a big Ripple Effect
-// Changing now() to consider timezone will also bring the effect
+// 시간대를 추가하면 큰 파급 효과가 있을 것입니다.
+// 시간대를 고려하도록 now()를 변경해도 같은 파급 효과가 발생합니다.

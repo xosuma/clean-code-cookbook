@@ -1,5 +1,5 @@
 square = Square(5)
 
-assert square.area() = 25
+assert square.area() == 25
 
-# Assertion should be precise
+# 어서션은 정확해야 합니다.

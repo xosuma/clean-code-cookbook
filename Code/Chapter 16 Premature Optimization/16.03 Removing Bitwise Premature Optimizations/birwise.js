@@ -1,7 +1,5 @@
 const nowInSeconds = ~~(Date.now() / 1000)
 
-// The double bitwise NOT operator ~~ 
-// is a bitwise operation that performs a bitwise
-// negation followed by a bitwise negation again.
-// This operation effectively truncates any decimal places
-// converting the result to an integer.
+// 이중 비트 단위 not 연산자 ~~는 비트 단위 부정을 수행한 후
+// 다시 비트 단위 부정을 수행하는 비트 단위 연산입니다.
+// 이 연산은 결과를 정수로 변환할 때 소수점 이하 자릿수를 효과적으로 잘라냅니다

@@ -7,19 +7,16 @@ const getUnits = secs => {
  return 'years' 
 }
 
-// This is using ‘Numeric Separators’ notation from Javascript
-// to favor readability.
-// The underscores are ignored by the JavaScript engine
-// and do not affect the value of the number.
+// 가독성을 높이기 위해 자바스크립트의 numeric separators 표기법을 사용합니다.
+// 밑줄 문자(_)는 자바스크립트 엔진에서 무시되며 숫잣값에 영향을 주지 않습니다.
 
-const getUnits = secs => {
- if (secs <= 60) return 'seconds'; 
- if (secs <= 60 * 60) return 'minutes'; 
- if (secs <= 24 * 60 * 60) return 'hours';   
- if (secs <= 30 * 24 * 60 * 60) return 'days';    
- if (secs <= 12 * 30 * 24 * 60 * 60) return 'months';  
- return 'years' 
-}
+const getUnits = (secs) => {
+  if (secs <= 60) return "seconds";
+  if (secs <= 60 * 60) return "minutes";
+  if (secs <= 24 * 60 * 60) return "hours";
+  if (secs <= 30 * 24 * 60 * 60) return "days";
+  if (secs <= 12 * 30 * 24 * 60 * 60) return "months";
+  return "years";
+};
 
-// You can read the premature optimization chapter to find out
-// if this brings a considerable performance penalty
+// 4장 섣부른 최적화를 읽고 나면 성능에 상당한 불이익이 발생하는지 확인할 수 있습니다.

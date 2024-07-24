@@ -8,4 +8,4 @@ class BookItem extends ShopItem {
    description() { return 'some book'}     
 }
 
-// concrete Class has no real behavior, just return different 'data'
+// 구상 클래스는 실제 동작이 없으며, 단지 다른 '데이터'를 반환할 뿐입니다.

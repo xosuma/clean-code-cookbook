@@ -6,23 +6,23 @@ if (actualIndex < totalItems)
         {
           if (product[actualIndex].price == null)
           {
-            // handle no price
+            // 가격이 없는 경우 대응
           }
           else
           {
             if (!(product[actualIndex].priceIsCurrent()))
             {
-              // add price
+              // 가격 추가
             }
             else
             {
               if (!hasDiscount)
               {
-                // handle discount
+                // 할인 대응
               }
               else
               {
-                // etc
+                // 그 외
               }
             }
           }

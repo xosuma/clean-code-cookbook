@@ -4,7 +4,7 @@ int main(void)
     id = get_value();
     if (id < 0) 
     { 
-        printf("Error: Failed to obtain value\n");
+        printf("오류: 값을 얻지 못함\n");
         return EXIT_FAILURE;
     }  
     return id;
@@ -12,8 +12,6 @@ int main(void)
 
 int get_value() 
 {
-  // something bad happened
-  return -1; // Return a negative value to indicate error
+  // 나쁜 일이 발생했습니다.
+  return -1; // 음숫값을 반환해 오류를 표시합니다.
 }
-
-// No INVALID_VALUE defined

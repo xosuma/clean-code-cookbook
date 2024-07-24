@@ -1,4 +1,4 @@
 if (currentExposure > 0.15 && customer != "Very Special Customer") {
-  // Be extra careful not to liquidate
+  // 청산하지 않도록 각별히 주의하세요.
   liquidatePosition();
 }

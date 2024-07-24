@@ -5,7 +5,7 @@ class Time {
      this.seconds = seconds;  
      this.timezone = timezone;  
   }  
-  // Removed now() since is invalid without context
+  // 컨텍스트 없이는 유효하지 않다 보니now()를 제거했습니다.
 }
 
 class RelativeClock {
@@ -15,7 +15,7 @@ class RelativeClock {
    now(timezone) {
      var localSystemTime = this.localSystemTime();
      var localSystemTimezone = this.localSystemTimezone();
-     // Do some math translating timezones
+     // 시간대 변환 계산
      // ...
      return new Time(..., timezone);     
    }  

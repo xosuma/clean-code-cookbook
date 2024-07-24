@@ -12,13 +12,12 @@ public Iterator Reverse(Iterator iterator) {
 }
 
 public class MyCollection implements Iterator { 
-     public bool HasNext { get; set;} // Implementation details
-     public object Next(); // Implementation details
+     public bool HasNext { get; set;} // 구현 세부 사항
+     public object Next(); // 구현 세부 사항
 }
 
 public class myDomainObject sum(Iterator anObjectThatCanBeIterated) {
- // Loose coupling
+     // 느슨한 결합
 }
 
-// Can use any Iterator
-// (even a mocked one as long as it adheres to the protocol)
+// (모의된 것을 포함해 프로토콜을 준수하기만 한다면) 모든 반복자를 사용할 수 있습니다.

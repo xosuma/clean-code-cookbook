@@ -4,7 +4,5 @@ for (k = 0; k < 3 * 3; ++k) {
      console.log(i + ' ' +  j);
   }
  
-// This cryptic piece of code iterates a
-// two-dimensional array
-// You don't have proof this will be useful
-// In real contexts
+// 이 암호화된 코드는 2차원 배열을 반복합니다.
+// 실제 상황에서 유용하다는 증거는 없습니다.

@@ -3,44 +3,44 @@ class Age {
 
 class AgeLessThan13 extends Age {
   assertCanWatchPG13Movie() {
-    throw new Error("You are not allowed to watch this movie");    
+    throw new Error("이 영화를 시청할 수 없습니다.");
   }
   assertCanWatchAdultMovie() {
-    throw new Error("You are not allowed to watch this movie");    
+    throw new Error("이 영화를 시청할 수 없습니다.");
   }
 }
 
 class AgeBetween13And18 extends Age {
   assertCanWatchPG13Movie() {
-    // No Problem
+    // 문제 없음
   }
   assertCanWatchAdultMovie() {
-    throw new Error("You are not allowed to watch this movie");    
+    throw new Error("이 영화를 시청할 수 없습니다.");
   }
 }
 
 class MovieRate {
-  // If language permits this should be declared abstract
+  // 언어가 허용하는 경우 abstract로 선언하세요.
   // abstract assertCanWatch();
 }
 
 class PG13MovieRate extends MovieRate {
-  //2. Move every *IF Body* to the former abstraction 
+  // 모든 if 본문을 이전 추상화로 이동하세요.
   assertCanWatch(age) {
-    age.assertCanWatchPG13Movie()    
+    age.assertCanWatchPG13Movie();
   }
 }
 
 class AdultsOnlyMovieRate extends MovieRate {
-  //2. Move every *IF Body* to the former abstraction 
+  // 모든 if 본문을 이전 추상화로 이동하세요.
   assertCanWatch(age) {
-     age.assertCanWatchAdultMovie()      
+    age.assertCanWatchAdultMovie();
   }
 }
 
 class Movie {
   constructor(rate) {
-    this._rate = rate; // Rate is now private
+    this._rate = rate; // 등급이 비공개로 설정됩니다.
   }
   watchByMe(moviegoer) {
     this._rate.assertCanWatch(moviegoer.age);
@@ -62,13 +62,13 @@ let gremlins = new Movie(new PG13MovieRate());
 let jane = new Moviegoer(new AgeLessThan13());
 
 // jane.watchMovie(theExorcist);
-// Jane cannot watch the exorcist since she is 12
+// 제인은 12살이어서 영화 <엑소시트스>를 시청할 수 없습니다.
 // jane.watchMovie(gremlins);
-// Jane cannot watch gremlins since she is 12
+// 제인은 12살이어서 영화 <그렘린>을 시청할 수 없습니다.
 
 let joe = new Moviegoer(new AgeBetween13And18());
 
 // joe.watchMovie(theExorcist);
-// Joe cannot watch the exorcist since he is 16
+// 조는 16살이어서 영화 <엑소시트스>를 시청할 수 없습니다.
 joe.watchMovie(gremlins);
-// Joe CAN watch gremlins since he is 16
+// 조는 16살이어서 영화 <그렘린>을 시청할 수 없습니다.

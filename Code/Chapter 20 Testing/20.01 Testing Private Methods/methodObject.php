@@ -21,8 +21,8 @@ final class ParsecsToLightYearsConverterTest extends TestCase {
     $this->assertEquals(0, 
       (new ParsecsToLightYearsConverter())->convert(0));
   }
-    // You can add lots of tests and rely on this object
-    // So you don't need to test Star conversions
-    // You can't yet test Star public timeToReachLightToUs()
-    // This is a simplified scenario
+    // 많은 테스트를 추가하고 이 객체에 의존할 수 있습니다.
+    // 따라서 별(Star) 전환을 테스트할 필요가 없습니다
+    // 아직 Star의 public timeToReachLightToUs()를 테스트할 수 없습니다
+    // 이것은 단순화된 시나리오입니다.
 }

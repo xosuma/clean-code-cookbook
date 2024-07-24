@@ -6,4 +6,5 @@ else
     echo "False"
 fi
 
-# this evaluates to false   
+# 이는 false로 평가됩니다.
+ 

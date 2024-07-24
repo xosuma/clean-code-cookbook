@@ -22,11 +22,10 @@ public:
     }
     
     ~File() {
-        // Instead of closing the file you throw an exception 
-        // If it is open (which is an invalid scenario)
+        // 파일이 열려 있으면 파일을 닫는 대신 예외를 던집니다(잘못된 시나리오).
         if (file_) {
             throw std::logic_error(
-                "File is still open after reaching its destructor");
+                "파일이 소멸자에 도달한 후에도 여전히 열려 있습니다");
         }
     }
     

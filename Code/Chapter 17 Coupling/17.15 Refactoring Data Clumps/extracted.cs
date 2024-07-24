@@ -5,8 +5,8 @@ public class TimeInterval
         if (from >= to)
         {
             throw new ArgumentException
-                ("Invalid time interval:" + 
-                 " ’from’ must be earlier than ’to’.");
+                ("잘못된 시간 간격:" + 
+                 " ’from’은 ’to’보다 빨라야 합니다.");
         }
         From = from;
         To = to;
@@ -19,7 +19,7 @@ public DinnerTable(Person guest, DateTime from, DateTime to)
     Interval = new TimeInterval(from, to);
 }
 
-// Even Better...
+// 더 짧은 버전은..
 
 public DinnerTable(Person guest, Interval reservationTime)
 {    
